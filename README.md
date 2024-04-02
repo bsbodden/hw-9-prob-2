@@ -33,3 +33,7 @@ Run the Streamlit app with:
 ```bash
 poetry run streamlit run app.py
 ```
+
+For Gemma version:
+- Download Ollama for your platform from https://ollama.com/download
+- Test that it works locally with `ollama run gemma:2b`

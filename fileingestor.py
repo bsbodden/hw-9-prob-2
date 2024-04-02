@@ -35,11 +35,10 @@ class FileIngestorLLM:
         redis_client = redis.from_url(REDIS_URL)
 
         # Create a Redis vector store and save embeddings
-        # Create a Redis vector store and save embeddings
         db = Redis.from_documents(
             data,
             embeddings,
-            redis_url=REDIS_URL,  # Pass the Redis URL directly
+            redis_url=REDIS_URL,
             index_name="pdf_index"
         )
 
