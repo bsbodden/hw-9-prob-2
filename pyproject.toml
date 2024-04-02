@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hw-9-prob-2"
+version = "0.1.0"
+description = "The Chat with PDF app from Medium Article"
+authors = ["Brian Sam-Bodden <bsb@redis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.2"
+streamlit-chat = "^0.1.1"
+pymupdf = "^1.24.0"
+sentence-transformers = "^2.6.1"
+redis = "^5.0.3"
+langchain = "^0.1.14"
+accelerate = "^0.28.0"
+ctransformers = "^0.2.27"
+transformers = "^4.39.2"
+sentencepiece = "^0.2.0"
+llama-cpp-python = "^0.2.58"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
